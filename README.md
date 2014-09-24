@@ -17,11 +17,11 @@
 说明：用来解析带有表情符的文本类型的消息。但是仅将表情符从文本中提取出来，放到返回的数组中，在页面渲染的时候在动态的替换成图片。
 用这个方法可以在发送消息回显的时候动态替换表情图片。
 
-### sendVideo(options)   sendVideoMessage(options)
+### sendVideo(options)   
 
-说明：用来发送视频类型的消息。
+说明：用来发送视频类型的消息。 内部调用 sendVideoMessage(options) 方法。
 
 ### sendFile(options) 
 
-说明：用来发送普通文件类型的消息。
+说明：用来发送普通文件类型的消息。 内部调用 sendFileMessage(options) 方法。
 
