@@ -1,3 +1,8 @@
+// import dependencies sequence
+// strophe-custom-1.0.0.js
+// json2.js
+// then, this file
+
 if (typeof jQuery == 'undefined') {
   alert("need jquery");
 }
@@ -214,6 +219,9 @@ if (typeof Strophe == 'undefined') {
       "[(W)]": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAACLlBMVEUAAABZnwBVlwBQiwBKfwBGdgBVlgBQigBKfgBEcQBAaABTlABEcQA+ZQAPXgcPXgcPXgdPiABJfQA4bQEbYAUPXgcPXgcPXgdOiABMgwBLgAAPXgcPXgcZXgUUXgYPXgdYnQBWmABTkwBRjgBOhwBMggBKfQBCdgAyZAE+YwAPXgcPXgdYnQBVmABxggWhWwXDOAHQIgWETwQ3XAUxaAJAaAA/ZQD3VD/6iHr2blvpHQLcGAbPEwvCDg96Kg5PYAJAaQAPXgf4XUv7cmT6hnnxKQu1CRSoAxiaKgpeTQQPXgcPXgf5YE70Qim/DBDMEQy5ChKsBRf7bFz8k4j3V0L0PCK5ChPaFweoAxj7bFz9q6T6k4bSFAreGQanAxn7bl/9sar5iHrJEhDuIwWpBBj7b2H+vbjnLhmrBRdJjwFTkgBPigD8eGv8lIn2TjjcJRjzOyG5ChKuBhcTYgZOkwBTkgBPigBLgQBIegD+fnP9fnL5ZFPhIhD1Tzu9CxEtdwRTkgBLgQBHeQBEcQD+f3X8dWfrIwn2XUz3VEDNEgzADRBSkABPiQBDcABAaQD+gnj8cmTxKw36aFj7bl/REwpLgABHeAA/aAA9YQD+g3nyNRrxLA/7b2HfGQXpST7dJxrlGwPsHwL2TDfjGwTMEgzRFArZFwfhGgXqIwnvIwXlHATJEA3OEgvVFQndGAboKRP2UDvwJQcPXgfQEwvWFQndGAb2TjjzOR/xKQsPXgdPdr5LAAAAunRSTlMAP//ffw/f///fL0//z4+/fz+vz///zw8vPw8v78+Pry8/Pz8fz/+/r69PP3/v////r///798Pn///////////Px+f////////v59f//////9PH///////zz///////3//////v6///29PPz/v/////+8P/////+9vL/////9/b+///59v/////98PL8//n7//////X1/P/1/v////32//////X5//////7w9f3/////+fbx8/Lx+fT98nuUF/AAABm0lEQVQ4y2NgIB4wMjGzsOJVwcbOwcmFTwE3OwcPLx8/vwBOFYJCwiKiQCAmjk1WQlKKQVpGVFaOX1RUHl1SQVFJWUVVTV1GRkOTgUFLRlQbTYGOrp6+gaGRsaiJqRmQKyDKj26EuYWllbWNrZ29A4gnLiPqiCrv5OziClLg5u7hCeJ7iXqjKvBx9oUo8PMPCATypUW9UOSDgkNCwQrCwv0DIkAiMqiOiIyKhiiIifUPiAOJyIuiKIhPSAQrSEoGKkhhAPsDRUFqGsSKdJCCDJCIt2hmVjZCQU5uHkhBfgFQQWERSES7uKS0rLwCKl9ZVQ1SUFMLUlAHFtIWrW8oa2xqhihoafUBKmhr7wAq6OyCKtDu7mls6u0D8/onABVMnDQZpGAKA0wBA8PUab3TZ4B4M4EKZs2eA1IwlwFJAQLMm1+zYOEikILF2BUwLFm6bPmKSR0FK1fhUMCwes3ades3FGyE8TdhpAiGzVu2btu+A8YTEBXHnwXQ4gITiBFSILoTv7w2ZqJEBZsIKZAXFcCvQIaAAm1RRDgBAONoa547W9uXAAAAAElFTkSuQmCC",
       "[(D)]": "data:image/gif;base64,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"
     };
+
+
+
     var createStandardXHR = function() {
       try {
         return new window.XMLHttpRequest();
@@ -509,7 +517,7 @@ if (typeof Strophe == 'undefined') {
         return;
       }
 
-      var uploadUrl = 'https://a1.easemob.com/' + orgName + '/' + appName + '/chatfiles';
+      var uploadUrl = this.schema + '://a1.easemob.com/' + orgName + '/' + appName + '/chatfiles';
 
       var xhr = xmlrequest();
       var onError = function(e) {
@@ -737,7 +745,8 @@ if (typeof Strophe == 'undefined') {
         }]
       };
     }
-    var parseTextMessageRawFn = function(message) { //Add By Nick Ma. 仅切分表情符号，不做转换。
+
+    var parseTextMessageRawFn = function(message) { //仅切分表情符号，不做转换。
       var receiveMsg = message;
       var emessage = [];
       var expr = /\[[^[\]]{2,3}\]/mg;
@@ -796,6 +805,7 @@ if (typeof Strophe == 'undefined') {
         }]
       };
     }
+
     var parseResponseMessageFn = function(msginfo) {
       var parseMsgData = {
         errorMsg: true,
@@ -915,7 +925,7 @@ if (typeof Strophe == 'undefined') {
     }
     var login2UserGrid = function(options) {
       options = options || {};
-
+      var schema = options.schema || 'http'; //默认使用http通道
       var appKey = options.appKey || '';
       var devInfos = appKey.split('#');
       if (devInfos.length != 2) {
@@ -945,10 +955,10 @@ if (typeof Strophe == 'undefined') {
       var error = options.error || emptyFn;
       var user = options.user || '';
       var pwd = options.pwd || '';
-      return dologin2UserGrid(user, pwd, orgName, appName, suc, error);
+      return dologin2UserGrid(schema, user, pwd, orgName, appName, suc, error);
     };
-    var dologin2UserGrid = function(user, pwd, orgName, appName, suc, error) {
-      var loginUrl = 'https://a1.easemob.com/' + orgName + '/' + appName + '/token';
+    var dologin2UserGrid = function(schema, user, pwd, orgName, appName, suc, error) {
+      var loginUrl = schema + '://a1.easemob.com/' + orgName + '/' + appName + '/token';
 
       var loginJson = {
         grant_type: 'password',
@@ -1023,6 +1033,8 @@ if (typeof Strophe == 'undefined') {
       conn.context.appKey = appKey;
       conn.context.appName = appName;
       conn.context.orgName = orgName;
+      conn.context.resource = resource; //add for do presents
+
       return true;
     };
     var login2ImCallback = function(status, msg, conn) {
@@ -1121,7 +1133,8 @@ if (typeof Strophe == 'undefined') {
 
     var connection = function() {}
     connection.prototype.init = function(options) {
-      this.url = options.url || 'https://im-api.easemob.com/http-bind/';
+      this.schema = options.schema || 'http'; //默认是http，可以设置为https
+      this.url = options.url || this.schema + '://im-api.easemob.com/http-bind/';
       // this.url = options.url || 'http://im1.easemob.com:5280/http-bind/';
       this.wait = options.wait || 60;
       this.hold = options.hold || 1;
@@ -1214,7 +1227,7 @@ if (typeof Strophe == 'undefined') {
       var orgName = this.context.orgName;
 
       this.context.status = STATUS_DOLOGIN_USERGRID;
-      dologin2UserGrid(userId, pwd, orgName, appName, suc, error);
+      dologin2UserGrid(this.schema, userId, pwd, orgName, appName, suc, error);
     };
     connection.prototype.attach = function(options) {
       var pass = innerCheck(options, this);
@@ -1380,16 +1393,17 @@ if (typeof Strophe == 'undefined') {
         var type = msgBody.type;
         if ("txt" == type) {
           var receiveMsg = msgBody.msg;
-          var emotionsbody = parseTextMessageFn(receiveMsg);
+          // var emotionsbody = parseTextMessageFn(receiveMsg);
+          var emotionsbody = parseTextMessageRawFn(receiveMsg);
           if (emotionsbody.isemotion) {
             this.onEmotionMessage({
               type: chattype,
               from: from,
               to: too,
-              data: emotionsbody.body
+              data: emotionsbody.body, //TODO: should provide raw data -> Done
             });
           } else {
-            this.onTextMessage({
+            conn.onTextMessage({
               type: chattype,
               from: from,
               to: too,
@@ -1457,7 +1471,8 @@ if (typeof Strophe == 'undefined') {
     };
     connection.prototype.sendCommand = function(dom) {
       if (this.isOpened()) {
-        this.context.stropheConn.send(dom);
+        var ret = this.context.stropheConn.send(dom);
+
       } else {
         this.onError({
           type: EASEMOB_IM_CONNCTION_OPEN_ERROR,
@@ -1679,7 +1694,7 @@ if (typeof Strophe == 'undefined') {
       }).c("body").t(jsonstr);
       this.sendCommand(dom.tree());
     };
-    connection.prototype.sendVideo = function(options) { //Add By Nick Ma.
+    connection.prototype.sendVideo = function(options) {
       var onerror = options.onFileUploadError || this.onError || emptyFn;
       if (!isCanUploadFile) {
         onerror({
@@ -1713,7 +1728,7 @@ if (typeof Strophe == 'undefined') {
 
       uploadFn(options, this);
     };
-    connection.prototype.sendVideoMessage = function(options) { //Add By Nick Ma.
+    connection.prototype.sendVideoMessage = function(options) {
       var appKey = this.context.appKey || '';
       var toJid = appKey + "_" + options.to + "@" + this.domain;
       if (options.type && options.type == 'groupchat') {
@@ -1744,7 +1759,7 @@ if (typeof Strophe == 'undefined') {
       }).c("body").t(jsonstr);
       this.sendCommand(dom.tree());
     };
-    connection.prototype.sendFile = function(options) { //Add By Nick Ma.
+    connection.prototype.sendFile = function(options) {
       var onerror = options.onFileUploadError || this.onError || emptyFn;
       if (!isCanUploadFile) {
         onerror({
@@ -1916,7 +1931,7 @@ if (typeof Strophe == 'undefined') {
       }
       if (options.nick) {
         pres.c('nick', {
-          'xmlns': "http://jabber.org/protocol/nick"
+          'xmlns': this.schema + "://jabber.org/protocol/nick"
         }).t(options.nick);
       }
       this.sendCommand(pres.tree());
@@ -2138,7 +2153,7 @@ if (typeof Strophe == 'undefined') {
       }
       this.sendCommand(dom.tree());
     };
-    connection.prototype.setPresenceForGroup = function(roomId) { //Add by Nick Ma. every group should call this func only once before you can send any message to groups.
+    connection.prototype.setPresenceForGroup = function(roomId) { //every group should call this func only once before you can send any message to groups.
       var dom = $pres({
         from: this.context.appKey + "_" + this.context.userId + "@easemob.com/" + this.context.resource,
         to: this.context.appKey + "_" + roomId + "@conference.easemob.com/" + this.context.userId

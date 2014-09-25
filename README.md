@@ -6,7 +6,15 @@
 
 更多关于环信的开发文档请见：http://developer.easemob.com
 
-## 增强版新增的方法
+## 增强版新增的方法 2014-09-25
+
+### 初始化连接的时候可以指定使用http还是https
+
+    conn = new Easemob.im.Connection();
+    conn.init({
+        schema: 'https', //使用https通道。 如果不写，则是使用http通道。
+        /* 其他初始化代码 */
+    })
 
 ### connection.setPresenceForGroup(roomId) 
 
