@@ -5221,10 +5221,10 @@ input[type="submit"].btn.btn-mini {
 
 .modal.fade {
   top: -25%;
-  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
-     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
-       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
-          transition: opacity 0.3s linear, top 0.3s ease-out;
+  -webkit-transition: opacity 0.1s linear, top 0.1s ease-out;
+     -moz-transition: opacity 0.1s linear, top 0.1s ease-out;
+       -o-transition: opacity 0.1s linear, top 0.1s ease-out;
+          transition: opacity 0.1s linear, top 0.1s ease-out;
 }
 
 .modal.fade.in {
@@ -5639,7 +5639,24 @@ a.thumbnail:focus {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #999999;
+  background-color: red;
+  margin-top: 10px;
+  float: right;
+}
+
+.label,
+.badgegroup {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: red;
+  float: right;
 }
 
 .label {
@@ -5655,6 +5672,15 @@ a.thumbnail:focus {
      -moz-border-radius: 9px;
           border-radius: 9px;
 }
+
+.badgegroup {
+  padding-right: 9px;
+  padding-left: 9px;
+  -webkit-border-radius: 9px;
+     -moz-border-radius: 9px;
+          border-radius: 9px;
+}
+
 
 .label:empty,
 .badge:empty {
@@ -5967,6 +5993,9 @@ a.badge:focus {
 .accordion-inner {
   padding: 9px 15px;
   border-top: 1px solid #e5e5e5;
+  height : 328px;
+  overflow-x : auto;
+  overflow-y : auto;
 }
 
 .carousel {

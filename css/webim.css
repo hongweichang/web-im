@@ -277,7 +277,7 @@ a:hover {
 	border-radius: 5px;
 	background-color: #C0C0C0;
 	position: relative;
-	padding: 5px 10px 5px 5px;
+	/*padding: 5px 10px 5px 5px;*/ 
 }
 
 .chat03_content ul {
@@ -480,7 +480,16 @@ label.offline {
 	-o-transition: opacity 0.15s linear;
 	transition: opacity 0.15s linear;
 }
-
+.modal-backdrop {
+    *display: none;
+}
 .fade.in {
 	opacity: 1;
+}
+.badgegroup,
+.badge {
+    *margin-top: -30px;
+}
+.accordion-inner {
+    *position: relative;
 }
